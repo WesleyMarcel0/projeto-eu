@@ -1,0 +1,31 @@
+@charset "UTR-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+html, body{
+    background-color: rgb(26, 27, 39);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+}
+
+section#login{   
+    background-color: white;
+    border: 2px solid black;
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
