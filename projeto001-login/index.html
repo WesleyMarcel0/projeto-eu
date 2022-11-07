@@ -11,13 +11,25 @@
 <body>
     <main>
         <section id="login">
-            <nav>
-                imagem
+            <nav id="imagem">
+                
             </nav>
 
-            <nav>
+            <nav id="login">
                 <h1>Login</h1>
                 <p>Bem-vindo. faça login para entrar na tela principal.</p>
+                <form action="acessar.php" id="campo">
+                        <nav class="campo">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email">
+                        </nav>
+                        <nav class="campo">
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" id="senha"> 
+                        </nav>
+                    <input type="submit" value="Entrar">
+                    <input type="submit" value="Esqueci minha senha">
+                </form>
             </nav>
         </section>
     </main>
