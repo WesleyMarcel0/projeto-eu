@@ -22,17 +22,18 @@ main{
 }
 
 section#login{   
-    background-color: rgb(26, 27, 39);
-    border: 2px solid black;
-    display: block;
-
     position: absolute;
     top: 50%;
     left: 50%;
+
+    background-color: rgb(26, 27, 39);
+    border: 1px solid black;
+
     transform: translate(-50%, -50%);
     box-shadow: 1px 1px 10px rgba(0, 0, 17, 0.664);
     border-radius: 20px;
     overflow: hidden;
+    text-align: center;
 }
 
 nav#imagem{
@@ -40,15 +41,16 @@ nav#imagem{
     background: url(../imagens/ceu.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 350px;
+    height: 230px;
     
 }
 
 nav#login {
+    display: block;
     padding: 20px;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    height: 200px;
+    height: 250px;
     width: 300px;
 }
 
@@ -63,9 +65,13 @@ nav#login > p {
 form#campo > input[type=submit]{
     background-color: rgb(47, 49, 71);
     color: white;
-    padding: 10px;
+    padding: 0px;
     border-radius: 10px;
-    margin: 10px 0px;
+    height: 30px;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
  }
 
  form#campo > input[type=submit]:hover{
@@ -76,3 +82,4 @@ form#campo > input[type=submit]{
  form#campo > nav.campo{
     margin: 5px;
  }
+

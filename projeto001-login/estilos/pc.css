@@ -1,0 +1,28 @@
+@charset "UTR-8";
+
+body, html {
+    background-image: linear-gradient(to bottom, rgb(26, 27, 39), rgb(1, 15, 161));
+}
+
+section#login {
+    width: 70vw;
+    height: 400px;
+}
+
+nav#imagem{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+nav#login{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+form#campo > input[type=submit]{
+    height: 50px;
+    width: 100%;
+}
