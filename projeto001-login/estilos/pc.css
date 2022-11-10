@@ -6,7 +6,7 @@ body, html {
 
 section#login {
     width: 70vw;
-    height: 400px;
+    height: 500px;
 }
 
 nav#imagem{
@@ -19,7 +19,15 @@ nav#login{
     float: left;
     width: 50%;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 70px;
+}
+
+nav#login > h1{
+    font-size: 2.5em;
+}
+
+nav#login > p{
+    font-size: 1.3em;
 }
 
 form#campo > input[type=submit]{

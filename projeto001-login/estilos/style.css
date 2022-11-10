@@ -34,6 +34,13 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
+    height: 500px;
+}
+
+nav.campo {
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 nav#imagem{
@@ -50,7 +57,7 @@ nav#login {
     padding: 20px;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    height: 250px;
+    height: 300px;
     width: 300px;
 }
 
@@ -60,6 +67,32 @@ nav#login > h1 {
 
 nav#login > p {
     font-size: 0.8em;
+}
+
+nav.campo > input{
+    font-size: 24px;
+    border-radius: 8px;
+    width: calc(100% - 44px);
+    height: 100%;
+    transform: translateY(-2px);
+    background-color: rgb(189, 189, 252);
+    border: none;
+
+}
+
+nav.campo > input:focus-within{
+    background-color: white;
+}
+
+nav > span.material-symbols-outlined {
+    font-size: 25px;
+    margin: 0px;
+    padding: 5px 0px;
+    color: black;
+}
+
+nav.campo > label{
+    display: none;
 }
 
 form#campo > input[type=submit]{

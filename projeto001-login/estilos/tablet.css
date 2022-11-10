@@ -21,7 +21,15 @@ nav#login{
     width: 50%;
     height: 100%;
     float: right;
-    padding-top: 140px;
+    padding-top: 100px;
+}
+
+nav#login > h1{
+    font-size: 2em;
+}
+
+nav#login > p {
+    font-size: 1.3em;
 }
 
 form#campo > input[type=submit]{

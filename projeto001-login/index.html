@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width:768px) and (max-width:992px)">
     <link rel="stylesheet" href="estilos/pc.css" media="screen and (min-width:992px)"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>login</title>
 </head>
 
@@ -22,12 +23,22 @@
                 <p>Bem-vindo. faça login para entrar na tela principal.</p>
                 <form action="acessar.php" id="campo">
                         <nav class="campo">
-                            <label for="email">E-mail</label>
-                            <input type="email" name="email" id="email">
+                         
+                            <span class="material-symbols-outlined">
+                                arrow_forward
+                                </span>
+
+                            <input type="email" name="email" id="email" required placeholder="   G-mail" autocomplete="email" max="8">
+                             <label for="email">E-mail</label>
                         </nav>
                         <nav class="campo">
+                            
+                            <span class="material-symbols-outlined">
+                                vpn_key_off
+                                </span>
+
+                            <input type="password" name="senha" id="senha" required autocomplete="current-password" placeholder="   Senha" maxlength="30"> 
                             <label for="senha">Senha</label>
-                            <input type="password" name="senha" id="senha"> 
                         </nav>
                     <input type="submit" value="Entrar">
                     <input type="submit" value="Esqueci minha senha">
