@@ -1,0 +1,41 @@
+@charset "UTR-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body , html {
+    background-color: rgb(97, 0, 0);
+}
+
+header{
+    background-color: white;
+}
+
+header > div#imagem {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+
+header > menu > a {
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(97, 0, 0);
+}
+
+main{
+    background-color: white; 
+    
+}
+
+main > section#pag{
+    width: 300px;
+    height: 700px;
+    background-color: blue;
+    
+}
