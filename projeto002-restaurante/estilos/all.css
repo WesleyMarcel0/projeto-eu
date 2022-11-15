@@ -7,6 +7,8 @@
 
 body , html {
     background-color: rgb(97, 0, 0);
+    height: 100hv;
+    width: 100vw;
 }
 
 header{
@@ -14,9 +16,13 @@ header{
 }
 
 header > div#imagem {
-    background-color: blueviolet;
-    width: 200px;
-    height: 200px;
+    background-color: rgb(97, 0, 0);
+    background-image: url(../imagens/wp2288781-ikki-kurogane-wallpapers.jpg);
+    width: 100wv;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 header > menu > a {
@@ -30,12 +36,16 @@ header > menu > a {
 
 main{
     background-color: white; 
+    width: 100wv;
+    height: 100hv;
     
 }
 
 main > section#pag{
+    margin: auto;
     width: 300px;
     height: 700px;
     background-color: blue;
+    border: 2px solid black;
     
 }
