@@ -11,18 +11,23 @@ body , html {
     width: 100vw;
 }
 
-header{
-    background-color: white;
-}
-
-header > div#imagem {
+div#imagem {
     background-color: rgb(97, 0, 0);
-    background-image: url(../imagens/wp2288781-ikki-kurogane-wallpapers.jpg);
+    background-image: url(../imagens/Sem\ título.png);
     width: 100wv;
-    height: 250px;
+    height: 150px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+header > h1.nome{
+    color: white;
+    text-align: center;
+}
+
+header > h1#nome1{
+    padding-bottom: 20px;
 }
 
 header > menu > a {
@@ -35,7 +40,7 @@ header > menu > a {
 }
 
 main{
-    background-color: white; 
+    background-color: rgb(97, 0, 0); 
     width: 100wv;
     height: 100hv;
     
@@ -43,9 +48,13 @@ main{
 
 main > section#pag{
     margin: auto;
-    width: 300px;
+    width: 350px;
     height: 700px;
-    background-color: blue;
+    background-color: white;
     border: 2px solid black;
     
+}
+
+footer > p{
+    color: white;
 }
