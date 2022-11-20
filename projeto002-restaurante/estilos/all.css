@@ -37,6 +37,10 @@ header > menu > a {
     background-color:rgb(97, 0, 0);
 }
 
+header > menu > a:hover{
+    background-color:rgb(167, 20, 20)
+}
+
 main{
     background-color: rgb(97, 0, 0); 
     margin: auto;
@@ -46,6 +50,13 @@ main{
     border: 2px solid black;
     
 }
+
+main > section.cardapio{
+    text-align: center;
+    border: 2px solid black;
+    font-size: 1.5em;
+}
+
 section.cardapio > ul{
     list-style-position: inside;
 }
