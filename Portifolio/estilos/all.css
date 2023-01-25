@@ -4,3 +4,23 @@
     padding: 0px;
     margin: 0px;
 }
+
+html, body{
+    background-color: #98d5f3;
+}
+
+header{
+    background-color: #1f22e98c;
+    box-shadow: 1px 1px 10px black;
+    height: auto;
+    width: 100vw;
+}
+
+header > h1 {
+    display: inline-block;
+}
+
+header > h2 {
+    display: inline-block;
+    text-align: center;
+}
