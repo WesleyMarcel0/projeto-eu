@@ -37,9 +37,12 @@ header > h1 {
     display: inline-block;
 }
 
-header > h2 {
+header > nav  {
     display: inline-block;
-    text-align: center;
+}
+
+header > nav > h2 {
+    display: inline-block;
 }
 
 main > section > h1 {
