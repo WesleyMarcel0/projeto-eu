@@ -36,8 +36,8 @@ span.material-symbols-outlined {
 }
 
 span.material-symbols-outlined:hover {
-background-color:rgb(199, 0, 0);
-cursor: pointer;
+    background-color:rgb(199, 0, 0);
+    cursor: pointer;
 }
 
 menu{

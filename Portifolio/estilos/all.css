@@ -31,21 +31,28 @@ header{
     box-shadow: 1px 1px 10px black;
     height: auto;
     width: 100vw;
+    text-align: right;
 }
 
-header > h1 {
-    display: inline-block;
-}
-
-header > nav  {
-    display: inline-block;
-}
-
-header > nav > h2 {
-    display: inline-block;
+div {
+    width: 50px;
+    height: auto;
     text-align: left;
+}
+
+header > h2 {
+    display: inline-block;
 }
 
 main > section > h1 {
     font-family: var(--font-sobreMim);
+}
+
+main > section > div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
 }
